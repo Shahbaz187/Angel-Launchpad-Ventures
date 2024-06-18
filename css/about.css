@@ -1,0 +1,187 @@
+/* ----- Hero section ----- */
+.hero-section {
+  height: 62.5vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../assets/images/home\ \ 2.png");
+  background-position: center;
+  background-size: cover;
+}
+.hero-section h1 {
+  font-size: 2rem;
+}
+/* ----- network section ----- */
+.network-section {
+  padding: 100px 0;
+}
+.network-contant span {
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+.network-contant h3 {
+  font-size: 1.5rem;
+  width: 80%;
+  margin-top: 30px;
+  line-height: 40px;
+}
+.investers-section {
+  padding: 100px 0;
+  background: #f7f7f7;
+}
+.investers-contant span {
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+}
+.investers-contant h3 {
+    font-size: 1.4rem;
+  margin-top: 20px;
+  line-height: 40px;
+}
+.investers-contant button {
+  margin-top: 10px;
+}
+/* ----- investers section ----- */
+.directors-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.directors-card {
+  flex: 1 1 150px;
+  max-width: 200px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.img-container {
+  position: relative;
+}
+/* ----- directors section ----- */
+.directors-section {
+  padding: 100px 0;
+}
+.directors-section .container {
+  margin-top: 50px;
+}
+.directors-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.directors-card h5 {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.overlay {
+  position: absolute;
+  padding: 0 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.img-container:hover .overlay {
+  opacity: 1;
+}
+.team-section {
+  padding: 100px 0;
+}
+.team-section .container {
+  margin-top: 50px;
+}
+/* ----- partners section ----- */
+.partner-section2 {
+  padding: 80px 0;
+}
+.partner-contant h3 {
+  margin-top: 20px;
+  line-height: 40px;
+}
+.partner-contant p {
+  margin-top: 15px;
+}
+.partner-contant button {
+  margin-top: 20px;
+}
+/* ----- partners section ----- */
+.board-section{
+  padding: 80px 0;
+}
+.board-section .container{
+  margin-top: 40px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.board-card {
+  flex: 1 1 calc(100% / 7);
+  max-width: calc(100% / 6);
+  box-sizing: border-box;
+  margin: 10px;
+  text-align: center;
+}
+.board-card img {
+  width: 100%;
+  height: auto;
+}
+.board-card h6{
+  font-weight: 800;
+  font-size: 15px;
+}
+.board-card p{
+  margin-top: -5px;
+}
+
+ /* ----- Responsive Web ----- */
+
+@media (max-width: 1200px) {
+  .board-card {
+    flex: 1 1 calc(100% / 4); 
+    max-width: calc(100% / 4);
+  }
+}
+@media (max-width: 992px) {
+  .board-card {
+    flex: 1 1 calc(100% / 3);
+    max-width: calc(100% / 3);
+  }
+}
+@media (max-width: 768px) {
+  .board-card {
+    flex: 1 1 calc(100% / 2);
+    max-width: calc(100% / 2);
+  }
+}
+@media (max-width: 576px) {
+  .board-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .network-contant h3 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  .network-contant h3 {
+    font-size: 1.5rem;
+  }
+}

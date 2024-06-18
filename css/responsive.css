@@ -1,0 +1,104 @@
+@media (max-width: 1200px) {
+    .hero-section{
+        padding-top: 170px !important;
+    }
+    .hero-contant h1{
+        font-size: 3rem;
+        margin-top: 15;
+    }   
+    .number-container{
+        width: 70% !important;
+        margin-top: 70px;
+    }
+    .purpose-section{
+        padding-bottom: 110px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .L-img{
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-contant h1{
+        font-size: 3rem;
+        width: 100% !important;
+    }
+    .number-container{
+        margin-top: 50px;
+        width: 100% !important;
+    }
+}
+@media (max-width: 620px) {
+    .subscribe-form input{
+    width: 400px;
+}
+.btn-box{
+    width: 400px;
+}
+.btn-box button{
+    width: 100%;
+    margin-top: 20px;
+}
+footer{
+    font-size: 15px;
+}
+} 
+
+@media (max-width: 576px) {
+    .hero-contant h1{
+    margin-top: 20px;
+    font-size: 2.2rem;
+    }
+}
+@media (max-width: 520px) {
+        .hero-contant h1{
+        margin-top: 20px;
+        font-size: 2rem;
+    }
+    .number-container h3{
+        font-size: 1rem !important;
+    }
+    .hero-contant button{
+    padding: 8px 20px;
+    font-size: 18px;
+    }
+    .patner-section{
+    padding: 80px 20px;
+}
+    .patner-img{
+    width: 100% !important;
+}
+.award-container h2{
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+    .subscribe-form input{
+    width: 350px;
+}
+.btn-box{
+    width: 350px;
+}
+}
+@media (max-width: 465px) {
+    .hero-contant h1{
+        margin-top: 20px;
+        font-size: 2rem;
+    }
+    .number-container{
+            margin-top: 30px;
+    }
+        .subscribe-form input{
+    width: 280px;
+        font-size: 1rem;
+}
+.btn-box{
+    width: 280px;
+}
+
+ .subscribe-heading p{
+    font-size: 16px;
+    }
+}

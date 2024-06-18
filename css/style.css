@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  background: gray !important;
+}
+
+:root {
+  --main-color: #17b091;
+  --secondar-color: #013153;
+  --black-color: #000;
+  --white-color: #fff;
+}
+
+.main-color {
+  color: var(--main-color) !important;
+  font-weight: 800;
+}
+
+/* ----- Navbar ----- */
+.navbar {
+  width: 100%;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
+.dropdown:hover .dropdown-menu {
+  display: block !important;
+}
+.navbar .nav-link {
+  font-weight: 800;
+  font-size: 13px;
+  margin: 0 13px !important;
+}
+.navbar .nav-link:hover {
+  color: #17b091 !important;
+}
+.navbar ul {
+  margin-top: 10px;
+}
+.dropdown-menu {
+  border: none !important;
+}
+.navbar .nav-links {
+  font-weight: 500 !important;
+}
+.navbar .nav-links:hover {
+  font-weight: 600 !important;
+  color: black;
+}
+.navbar .nav-links:active {
+  color: var(--main-color);
+  background: transparent !important;
+}
+
+.navbar-btn {
+  padding: 12px 20px !important;
+  font-size: 15px;
+  background-color: #17b091;
+  font-weight: 600;
+  border: none;
+  color: white;
+  line-height: 26.4px;
+  border: 2px solid transparent;
+}
+.navbar-btn:hover {
+  border: 2px solid var(--main-color);
+  color: var(--main-color);
+  background: transparent;
+}
+.offcanvas-body {
+  background: white !important;
+}
+
+/* ----- Herosection ----- */
+.hero-section {
+  width: 100%;
+  height: 82.5vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/images/hero section.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 210px !important;
+  position: relative;
+}
+.hero-contant span {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 18px;
+}
+.hero-contant h1 {
+  color: var(--white-color);
+  margin-top: 20px;
+  font-size: 2.7rem;
+}
+.hero-contant button {
+  padding: 12px 30px;
+  font-size: 16px;
+  background-color: #17b091;
+  margin-top: 20px;
+  font-weight: 600;
+  border: none;
+  line-height: 26.4px;
+}
+.number-container {
+  margin-top: 100px;
+  width: 50% !important;
+}
+.L-img {
+  position: absolute;
+  right: 6%;
+  bottom: -80px;
+}
+/* ----- purpose-section ----- */
+.purpose-section {
+  width: 100%;
+  min-height: 40vh;
+  padding: 150px 0;
+  background-color: var(--secondar-color);
+}
+.purpose-section h3 {
+  font-size: 24px;
+  line-height: 40px;
+}
+.purpose-btn {
+  padding: 10px 0px;
+  padding-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid var(--main-color);
+  background: transparent;
+  color: var(--main-color);
+  font-weight: 500;
+  transition: 0.3s linear;
+}
+.purpose-btn:hover {
+  padding-bottom: 10px;
+}
+
+/* ----- patner section ----- */
+
+.patner-section {
+  padding: 80px 50px;
+}
+.patner-section h3 {
+  font-weight: 600;
+}
+.patner-img {
+  width: 70%;
+}
+.patner-img img {
+  width: 100%;
+  margin-top: 50px;
+  filter: grayscale(100%);
+}
+.patner-img img:hover {
+  filter: grayscale(0%);
+}
+.last-img {
+  width: 100%;
+  margin-top: 50px;
+  filter: grayscale(100%);
+}
+.last-img:hover {
+  filter: grayscale(0%);
+}
+/* ----- membership section ----- */
+
+.membership-section {
+  padding: 120px 0;
+  background: var(--main-color);
+  color: white;
+}
+.membership-contant {
+  padding: 0 50px;
+}
+.membership-contant h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.membership-contant h1 {
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.membership-contant a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background: #fff;
+  font-weight: 500;
+  border: none;
+  color: var(--black-color);
+}
+.membership-contant a:hover {
+  font-size: 1rem;
+  background: #000;
+  color: #fff;
+}
+
+/* ----- Projects section ----- */
+
+.project-section {
+  padding: 60px 0;
+}
+.project-heading h3 {
+  margin-bottom: 60px;
+  font-weight: 800;
+}
+
+/* ----- award section ----- */
+
+.award-section {
+  padding: 100px 0;
+  background: var(--secondar-color);
+  color: white;
+  text-align: center;
+}
+.award-section .award-container {
+  width: 65%;
+  margin: auto;
+}
+.award-container h5 {
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+.award-container h2 {
+  font-weight: 800;
+  font-size: 1.8rem;
+  line-height: 50px;
+}
+.award-container button {
+  font-weight: 800;
+}
+
+.subscribe-section {
+  padding: 80px 0;
+  background: white;
+}
+.subscribe-heading h3 {
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+.subscribe-heading p {
+  font-size: 20px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+.subscribe-form {
+  margin-top: 50px;
+}
+.subscribe-form input {
+  padding: 8px 0;
+  width: 540px;
+  font-size: 1.3rem;
+  opacity: 60%;
+  border: none;
+  outline: none;
+}
+.btn-box {
+  width: 540px;
+  text-align: left;
+}
+.btn-box button {
+  padding: 12px 30px !important;
+  font-size: 18px;
+  background-color: #17b091;
+  font-weight: 600;
+  border: none;
+  color: white;
+  line-height: 26.4px;
+  border: 2px solid transparent;
+}
+.btn-box button:hover {
+  border: 2px solid var(--main-color);
+  color: var(--main-color);
+  background: transparent;
+}
+.footer-section {
+  padding: 100px 0;
+  background: var(--secondar-color);
+  position: relative;
+  color: white;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+.footer-section a:hover {
+  text-decoration: underline;
+}
+.footer-logo {
+  width: 200px;
+  height: 60px;
+}
+.footer-l {
+  width: 200px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+
+.footer-btn {
+  padding: 8px 10px !important;
+  font-size: 16px;
+  background-color: #17b091;
+  font-weight: 600;
+  border: none;
+  color: white;
+  line-height: 26.4px;
+  border: 2px solid transparent;
+}
+.footer-btn:hover {
+  border: 2px solid var(--main-color);
+  color: var(--main-color);
+  background: transparent;
+}
+
+.footer-text {
+  padding: 80px 0;
+  background: #182a42;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: 1px solid var(--secondar-color);
+}
+.footer-text h6 {
+  font-size: 18px;
+  opacity: 80%;
+}
+.footer-text p {
+  opacity: 80%;
+  font-size: 15px;
+  margin-top: 30px;
+}
+footer {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1.1rem;
+  background: #182a42;
+  color: white;
+}
