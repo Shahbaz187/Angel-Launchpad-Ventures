@@ -1,7 +1,7 @@
 /* ----- Hero section ----- */
 .hero-section {
   height: 62.5vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../assets/images/home\ \ 2.png");
   background-position: center;
   background-size: cover;
