@@ -2,8 +2,8 @@
 .hero-section {
   height: 62.5vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../assets/images/home\ \ 2.png");
-  background-position: center;
+    url("../assets/images/what\ we\ do.png");
+  background-position: top;
   background-size: cover;
 }
 .hero-section h1 {
@@ -93,6 +93,7 @@
 .img-container:hover .overlay {
   opacity: 1;
 }
+/* ----- team section ----- */
 .team-section {
   padding: 100px 0;
 }

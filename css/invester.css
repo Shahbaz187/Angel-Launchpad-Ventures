@@ -38,7 +38,7 @@
 .join-points li{
   margin-top: 10px;
 }
-
+/* ----- project section ----- */
 .project-section{
   background: var(--secondar-color);
 }
@@ -48,7 +48,7 @@
   width: 140px !important;
 }
 
-
+/* ----- tiers section ----- */
 .tiers-section{
   padding: 80px 0;
   background: #F7F7F7;

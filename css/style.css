@@ -301,6 +301,7 @@ body {
   color: var(--main-color);
   background: transparent;
 }
+/* ----- footer section ----- */
 .footer-section {
   padding: 100px 0;
   background: var(--secondar-color);
