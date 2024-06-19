@@ -1,0 +1,119 @@
+:root {
+  --main-color: #17b091;
+  --secondar-color: #013153;
+  --black-color: #000;
+  --white-color: #fff;
+}
+
+.bg-white{
+    background: white;
+}
+.bg-gray{
+    background: rgb(224, 224, 224);
+}
+
+/* ----- Hero section ----- */
+.hero-section {
+  height: 70.5vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/images/Venture\ Club\ bg.png");
+  background-position: center;
+  background-size: cover;
+  padding-top: 210px !important;
+}
+.hero-section h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+.hero-section span{
+   color: var(--white-color);
+  font-weight: 800;
+}
+.hero-section button{
+    color: var(--white-color);
+    border: 3px solid var(--main-color);
+}
+.hero-section button:hover{
+    background: var(--white-color);
+    border: 3px solid var(--main-color);
+    color: var(--black-color);
+}
+/* ----- approach section ----- */
+.network-section{
+    padding: 100px 0;
+}
+.network-section ul{
+    margin-top: 20px;
+}
+.network-section ul li{
+    margin-top: 10px;
+}
+
+
+.meetimg-section{
+    padding: 100px 0;
+}
+.jemison-section{
+    padding: 100px 0;
+}
+.jemison-section h4{
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+.jemison-section h5{
+    font-weight: 800;
+}
+.jemison-paragraf{
+    width: 50% !important;
+}
+.winners-section{
+    padding: 30px 0;
+}
+.all-winners-lists{
+    margin: auto;
+    max-width: 700px !important;
+}
+.winners-list{
+    padding: 12px 20px;
+}
+.winners-list .name{
+    font-weight: 700;
+}
+@media (max-width: 1200px) {
+.hero-section h1 {
+    width: 100% !important;
+  font-size: 3rem;
+}
+}
+@media (max-width: 768px) {
+.hero-section h1 {
+    width: 100% !important;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.hero-section span{
+    font-size: 15px;
+}
+.hero-section button{
+    font-size: 14px;
+}
+.jemison-paragraf{
+    width: 90% !important;
+}
+}
+@media (max-width: 410px) {
+.hero-section{
+    padding-top: 150px !important;
+}
+.hero-section h1 {
+    width: 100% !important;
+  font-size: 2.3rem;
+  font-weight: 800;
+}
+.hero-section span{
+    font-size: 15px;
+}
+.hero-section button{
+    font-size: 14px;
+}
+}
