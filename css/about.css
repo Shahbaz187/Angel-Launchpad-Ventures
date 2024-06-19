@@ -113,6 +113,12 @@
 .partner-contant button {
   margin-top: 20px;
 }
+.patner-img img{
+    filter: grayscale(0%) !important;
+  }
+  .last-img{
+  filter: grayscale(0%) !important;
+}
 /* ----- partners section ----- */
 .board-section{
   padding: 80px 0;
