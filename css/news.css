@@ -12,7 +12,6 @@
     url("../assets/images/news\ section\ bg.png");
     background-position: top;
     background-size: cover;
-    /* background-size: cover; */
 }
 .hero-section h1 {
   font-size: 2rem;
