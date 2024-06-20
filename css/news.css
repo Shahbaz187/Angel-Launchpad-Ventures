@@ -1,0 +1,64 @@
+:root {
+  --main-color: #17b091;
+  --secondar-color: #013153;
+  --black-color: #000;
+  --white-color: #fff;
+}
+
+/* ----- Hero section ----- */
+.hero-section {
+  height: 62.5vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../assets/images/news\ header\ bg.png");
+  background-position: top;
+  background-size: cover;
+}
+.hero-section h1 {
+  font-size: 2rem;
+}
+
+
+.news-section{
+    padding: 60px 0;
+    background: white;
+}
+.news-top-card{
+    padding: 0px 10px;
+    box-shadow: 0 0 5px rgb(221, 221, 221);
+}
+.top-news-contant a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+.top-news-contant{
+    padding-bottom: 20px;
+}
+.top-news-contant a:hover{
+    color: var(--main-color);
+}
+.top-news-contant h5{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.news-btn{
+    border: none;
+    background: white;
+    color: var(--main-color);
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: 0.2s linear;
+}
+.news-btn:hover{
+    gap: 17px;
+}
+@media (max-width: 500px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+}
