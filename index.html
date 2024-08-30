@@ -350,21 +350,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-        {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Spike Energy",
-        "url": "https://spikeenergy.com",
-        "sameAs": [
-        "https://www.facebook.com/spikeenergy",
-        "https://twitter.com/spikeenergy"
-        ],
-        "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://spikeenergy.com/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-        }
-        }
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Spike Energy",
+  "url": "https://spikeenergy.com",
+  "sameAs": [
+    "https://www.facebook.com/spikeenergy",
+    "https://twitter.com/spikeenergy"
+  ],
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://spikeenergy.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
 </body>
 
 </html>
